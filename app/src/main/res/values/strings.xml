@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CNC Index</string>
+    <string name="search_hint">Pretraži (regex/wildcard: * ?)</string>
+    <string name="nav_search">Pretraži</string>
+    <string name="nav_import">Uvoz</string>
+    <string name="import_title">Uvoz podataka</string>
+    <string name="import_desc">Odaberite JSON datoteke izvezene iz PC aplikacije.\nPreporučeni redoslijed: prvo alati, zatim index.</string>
+    <string name="btn_import_index">Odaberi index datoteku</string>
+    <string name="btn_import_tools">Odaberi datoteku alata</string>
+    <string name="label_index_file">index_android.json</string>
+    <string name="label_tools_file">alati.json</string>
+    <string name="label_index_title">Index programa</string>
+    <string name="label_tools_title">Lista alata</string>
+    <string name="empty_list">Nema rezultata</string>
+    <string name="no_tools">Nema definiranih alata</string>
+    <string name="tools_header">Lista alata</string>
+    <string name="label_number">Broj programa</string>
+    <string name="label_name">Naziv</string>
+    <string name="label_file">Datoteka</string>
+    <string name="label_filepath">Putanja na PC-u</string>
+    <string name="label_modified">Zadnja izmjena</string>
+    <string name="language_label">Jezik / Language:</string>
+    <string name="lang_hr">Hrvatski</string>
+    <string name="lang_en">English</string>
+
+    <plurals name="result_count">
+        <item quantity="one">%d program</item>
+        <item quantity="other">%d programa</item>
+    </plurals>
+</resources>

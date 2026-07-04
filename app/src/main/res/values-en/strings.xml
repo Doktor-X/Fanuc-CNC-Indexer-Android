@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CNC Index</string>
+    <string name="search_hint">Search (regex/wildcard: * ?)</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_import">Import</string>
+    <string name="import_title">Import data</string>
+    <string name="import_desc">Select JSON files exported from the PC application.\nRecommended order: tools first, then index.</string>
+    <string name="btn_import_index">Select index file</string>
+    <string name="btn_import_tools">Select tools file</string>
+    <string name="label_index_file">index_android.json</string>
+    <string name="label_tools_file">alati.json</string>
+    <string name="label_index_title">Program index</string>
+    <string name="label_tools_title">Tool list</string>
+    <string name="empty_list">No results</string>
+    <string name="no_tools">No tools defined</string>
+    <string name="tools_header">Tool list</string>
+    <string name="label_number">Program number</string>
+    <string name="label_name">Name</string>
+    <string name="label_file">File</string>
+    <string name="label_filepath">PC path</string>
+    <string name="label_modified">Last modified</string>
+    <string name="language_label">Jezik / Language:</string>
+    <string name="lang_hr">Hrvatski</string>
+    <string name="lang_en">English</string>
+
+    <plurals name="result_count">
+        <item quantity="one">%d program</item>
+        <item quantity="other">%d programs</item>
+    </plurals>
+</resources>

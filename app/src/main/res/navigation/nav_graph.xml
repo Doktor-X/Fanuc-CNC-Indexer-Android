@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.cncindex.ui.search.SearchFragment"
+        android:label="Pretraži"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.cncindex.ui.detail.DetailFragment"
+        android:label="{programTitle}"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="programId"
+            app:argType="long" />
+        <argument
+            android:name="programTitle"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/importFragment"
+        android:name="com.cncindex.ui.import.ImportFragment"
+        android:label="Uvoz"
+        tools:layout="@layout/fragment_import" />
+
+</navigation>
