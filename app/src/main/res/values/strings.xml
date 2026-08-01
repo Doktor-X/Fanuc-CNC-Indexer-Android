@@ -15,6 +15,7 @@
     <string name="empty_list">Nema rezultata</string>
     <string name="no_tools">Nema definiranih alata</string>
     <string name="tools_header">Lista alata</string>
+    <string name="tools_status_hint">Dodirnite alat da ga označite zeleno kada je postavljen u stroj.</string>
     <string name="label_number">Broj programa</string>
     <string name="label_name">Naziv</string>
     <string name="label_file">Datoteka</string>
