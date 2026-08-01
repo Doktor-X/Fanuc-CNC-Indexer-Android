@@ -149,7 +149,7 @@
             android:id="@+id/tv_tools_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lista alata"
+            android:text="@string/tools_header"
             android:textSize="14sp"
             android:textStyle="bold"
             android:textAllCaps="true"
@@ -163,11 +163,23 @@
             android:id="@+id/tv_no_tools"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nema definiranih alata"
+            android:text="@string/no_tools"
             android:textColor="?attr/colorOnSurfaceVariant"
             android:visibility="gone"
             app:layout_constraintTop_toBottomOf="@id/tv_tools_header"
             app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_tools_status_hint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/tools_status_hint"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_tools_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_tools"
@@ -175,7 +187,7 @@
             android:layout_height="wrap_content"
             android:nestedScrollingEnabled="false"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintTop_toBottomOf="@id/tv_tools_header"
+            app:layout_constraintTop_toBottomOf="@id/tv_tools_status_hint"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
