@@ -19,7 +19,8 @@ The **FANUC PC desktop app** scans folders of FANUC G-code files, builds a searc
 |---|---|
 | 🔍 **Full-text search** | Search by program number, name, or filename. Supports regex and wildcards (`*`, `?`) |
 | 🔢 **Program browser** | All programs sorted by O-number, showing name and tool count at a glance |
-| 🛠️ **Tool list** | Tap any program to see the full list of tools it uses (requires `alati.json` import) |
+| 🛠️ **Tool list** | Tap any program to see its tools in clearly separated rows (requires `alati.json` import) |
+| ✅ **Temporary machine status** | Tap a tool to mark it green when it is installed in the machine; tap again to clear it. This visual status is not saved after leaving the program screen |
 | ⚠️ **Problem flag** | Programs containing non-ASCII characters are highlighted with a warning badge |
 | 📋 **Duplicate detection** | Identical programs (by MD5 hash) are grouped together under a single card |
 | 🗂️ **PC path display** | Shows the original file path from the PC so you always know where a program lives |
